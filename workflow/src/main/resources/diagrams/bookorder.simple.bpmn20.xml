@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<definitions xmlns="http://www.omg.org/spec/BPMN/20100524/MODEL" 
+		targetNamespace="http://www.bpmnwithactiviti.org">
+		
+	<process id="simplebookorder" name="Order book">
+		<startEvent id="startevent1" name="Start"/>
+		<sequenceFlow id="sequenceflow1" sourceRef="startevent1" targetRef="endevent1"/>
+		<endEvent id="endevent1" name="End"/>
+	</process>
+	<process id="simplebookorder12" name="Order book">
+		<startEvent id="startevent12" name="Start"/>
+		<sequenceFlow id="sequenceflow12" sourceRef="startevent12" targetRef="endevent12"/>
+		<endEvent id="endevent12" name="End"/>
+	</process>
+	<process id="simplebookorder2" name="Order book">
+		<startEvent id="startevent11" name="Start"/>
+		<sequenceFlow id="sequenceflow11" sourceRef="startevent11" targetRef="endevent11"/>
+		<endEvent id="endevent11" name="End"/>
+	</process>
+	
+</definitions>
