@@ -40,6 +40,19 @@
 			<artifactId>activiti-engine</artifactId>
 			<version>5.13</version>
 		</dependency>
+		
+		<dependency>
+			<groupId>org.activiti</groupId>
+			<artifactId>activiti-bpmn-layout</artifactId>
+			<version>5.13</version>
+		</dependency>
+		
+		<dependency>
+			<groupId>commons-io</groupId>
+			<artifactId>commons-io</artifactId>
+			<version>2.4</version>
+			<scope>test</scope>
+		</dependency>
 
 		<!-- Spring -->
 		<dependency>
